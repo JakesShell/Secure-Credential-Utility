@@ -1,22 +1,53 @@
-# Password-Generator
+﻿# Secure Credential Utility
 
 ## Overview
 
-The **Password Generator** is a simple Python script designed to create secure and random passwords. This tool generates a 16-character password using a combination of lowercase letters and special characters, ensuring a strong level of security for users.
+Secure Credential Utility is a Python-based command-line tool for generating passwords, validating password strength, and providing lightweight internal credential guidance.
 
-## Features
+This project is positioned as a recruiter-ready Python security utility. It upgrades a simple password generator into a more practical internal-tool style workflow that better reflects how IT, operations, and support teams may generate and review credentials.
 
-- **Random Password Generation**: Generates a password of specified length (16 characters).
-- **Character Variety**: Utilizes a mix of lowercase letters and special characters for enhanced security.
-- **User-Friendly Output**: Displays the generated password in a clear and readable format.
+## Real-World Business Use Case
 
-## Functionality
+This project maps to practical workflows used by:
 
-- **Character Sets**: 
-  - Lowercase letters (a-z)
-  - Special characters (e.g., `012456789/*-+_-@#$%&*`)
-- **Random Selection**: Each character in the password is randomly selected from the defined sets.
+- IT Support Teams
+- Internal Operations Teams
+- Security-Aware Admin Workflows
+- Small Business Credential Management
+- Python Utility Development
 
-## Technologies Used
+A team may need to answer questions such as:
 
-- **Python**: The programming language used to implement the password generation logic.
+- How can strong passwords be generated quickly?
+- Does a password meet basic internal policy expectations?
+- What guidance should be followed for user versus privileged credentials?
+- How can a simple credential tool be presented in a more professional and operational format?
+
+This utility is useful for lightweight credential generation, internal policy checks, and portfolio presentation of a practical security-minded Python CLI tool.
+
+## Key Features
+
+- Secure Password Generation Using `secrets`
+- Configurable Character Policy
+- Password Strength Validation
+- Basic Internal Policy Guidance
+- Command-Line Menu Workflow
+- Lightweight Security Utility Positioning
+
+## Tech Stack
+
+- Python
+
+## Repository Contents
+
+- `PasswordGenerator.py`
+- `README.md`
+- `.gitignore`
+
+## How To Run
+
+### 1. Create And Activate A Virtual Environment
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
